@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+   font-family: 'Space Mono', 'monospace', 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+#main-content {
+   padding-top: 60px;
+   padding-bottom: 60px;
+   background-color: #dddddd;
+}
+.cart-dropdown .dropdown-menu {
+   width: 100%;
+   min-width: 400px;
+   overflow: hidden;
+   box-shadow: 10px 10px 10px rgb(0 0 0 / 40%);
+}
+.cart-dropdown .dropdown-menu .dropdown-item {
+   white-space: normal;
+}
+.cart-dropdown .dropdown-menu .dropdown-item:active {
+   background: #e9ecef;
+   color: #1e2125;
+}
+.cart-dropdown .grand-total {
+   padding: 10px 20px;
+}
+
+.cart-dropdown .cart-dropdown-image {
+   min-width: 60px;
+   width: 60px;
+   height: 60px;
+   overflow: hidden;
+}
+
+.product-card {
+   transition: all 0.3s;
+}
+.product-card:hover {
+   transform: translateY(-10px);
+   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.product-card .card-title a {
+   color: #333;
+   text-decoration: none;
+}
+.product-card .card-title a:hover {
+   color: #1872d5;
+}
+
+.item-couter {
+   position: absolute;
+   right: -8px;
+   top: -8px;
+}
